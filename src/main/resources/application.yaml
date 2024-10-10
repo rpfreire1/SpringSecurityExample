@@ -1,0 +1,20 @@
+
+spring:
+  application:
+    name: "SpringsecurityMongoImplementation"
+  data:
+    mongodb:
+#      uri: mongodb://root:rootPassXXX@localhost:9000/core?retryWrites=true&w=majority
+      host: localhost
+      port: 27017
+      database: "core"
+#      username: "root"
+#      password: "rootPassXXX"
+      auto-index-creation: true
+#  security:
+#    user:
+#      password: "12345"
+#      name: user1
+server:
+  port: 8080
+
