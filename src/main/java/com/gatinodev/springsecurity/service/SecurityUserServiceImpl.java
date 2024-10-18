@@ -1,6 +1,8 @@
 package com.gatinodev.springsecurity.service;
 
 
+import com.gatinodev.springsecurity.dto.AuthLoginRequest;
+import com.gatinodev.springsecurity.dto.AuthResponse;
 import com.gatinodev.springsecurity.model.SecurityUser;
 import com.gatinodev.springsecurity.repository.SecurityUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,4 +40,10 @@ public class SecurityUserServiceImpl implements  UserDetailsService{
         ,authorityList) {
         };
     }
+    public AuthResponse loginUser(AuthLoginRequest authLoginRequest){
+        String username= authLoginRequest.username();
+        St
+    }
+
+
 }

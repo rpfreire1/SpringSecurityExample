@@ -1,6 +1,6 @@
 package com.gatinodev.springsecurity.model;
 
-import com.gatinodev.springsecurity.enums.RoleEnum;
+import com.gatinodev.springsecurity.utils.enums.RoleEnum;
 import lombok.Builder;
 import lombok.Data;
 

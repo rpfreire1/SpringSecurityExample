@@ -1,4 +1,4 @@
-package com.gatinodev.springsecurity.enums;
+package com.gatinodev.springsecurity.utils.enums;
 
 public enum RoleEnum {
     ADMIN,

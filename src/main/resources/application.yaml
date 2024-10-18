@@ -18,3 +18,10 @@ spring:
 server:
   port: 8080
 
+security:
+  jwt:
+    private: "15a560ea3f3c128319c2510ba20aaea5540ed6498b16786b4822f3c85f05ef24"
+    user:
+      generator: "AUTHJWT-BACKEND"
+
+#  SecretKeyJWT 15a560ea3f3c128319c2510ba20aaea5540ed6498b16786b4822f3c85f05ef24
